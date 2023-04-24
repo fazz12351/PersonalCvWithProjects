@@ -1,0 +1,45 @@
+body{
+
+
+}
+
+.nav-Container{
+    padding-top: 15px;;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar{
+    height:50px;
+    border-radius: 30px;;
+}
+.mid-Container{
+    border:10px solid red;
+    background-image: url("https://sites.psu.edu/bjr5500/files/2017/07/background-wallpapers-beautiful-website-sphere-different-backgrounds-2hiuje6.jpg");
+    height:1000px;
+    width: 100%;
+  
+}
+.mid-Content{
+    border:10px solid green;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;;
+   
+    padding-top: 30px;;
+}
+.left-content{
+    border:10px solid blue;
+    position: absolute;
+    top:-250px;
+}
+.column1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;;
+}

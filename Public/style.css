@@ -11,10 +11,13 @@ body{
     
 }
 .navbar{
-
     background-color: grey;
     height:50px;
     border-radius: 30px;;
+}
+.bg-light{
+
+    background-color: blue;
 }
 .mid-Container{
    
@@ -70,4 +73,8 @@ body{
     opacity: 0.6;
     rotate: 15deg;
     
+}
+
+ul{
+    list-style-type: none;
 }

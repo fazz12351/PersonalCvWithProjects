@@ -1,5 +1,5 @@
 body{
-
+    background-color: grey;
 
 }
 
@@ -11,35 +11,63 @@ body{
     
 }
 .navbar{
+
+    background-color: grey;
     height:50px;
     border-radius: 30px;;
 }
 .mid-Container{
-    border:10px solid red;
+   
     background-image: url("https://sites.psu.edu/bjr5500/files/2017/07/background-wallpapers-beautiful-website-sphere-different-backgrounds-2hiuje6.jpg");
     height:1000px;
     width: 100%;
   
 }
 .mid-Content{
-    border:10px solid green;
+
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
+   
     height: 900px;;
    
     padding-top: 30px;;
 }
 .left-content{
-    border:10px solid blue;
+
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
     position: absolute;
-    top:-250px;
+    top: 0px;;
+}
+
+
+.name-message{
+    font-family: 'Roboto Mono', monospace;
+    
+    text-decoration: underline;
+
 }
 .column1{
-    
+    margin-top: 160px;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;;
+ 
+}
+.right-content{
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    top: 0px;;
+
+}
+.profilePic{
+    border-radius: 10px;
+    height: 500px;
+    opacity: 0.6;
+    rotate: 15deg;
+    
 }

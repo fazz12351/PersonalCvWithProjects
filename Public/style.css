@@ -2,23 +2,34 @@ body{
     background-color: grey;
 
 }
-
 .nav-Container{
-    padding-top: 15px;;
-    opacity: 0.9;
-    display: flex;
+    padding-left: 10px;;
+    padding-right: 50px;
+    background-color: grey;
+    position: absolute;
     justify-content: center;
+    display: inline;
+
+    width:fit-content;
+    height:100%;
+}
+.topNav{
+ 
+    margin-top: 150px;;
+}
+.li-tems{
+    padding-top: 100px;
+
     
 }
-.navbar{
-    background-color: grey;
-    height:50px;
-    border-radius: 30px;;
-}
-.bg-light{
+.fa-house{
+ 
+    border:10px solid red;
 
-    background-color: blue;
 }
+
+
+
 .mid-Container{
    
     background-image: url("https://sites.psu.edu/bjr5500/files/2017/07/background-wallpapers-beautiful-website-sphere-different-backgrounds-2hiuje6.jpg");
@@ -61,20 +72,24 @@ body{
  
 }
 .right-content{
+    margin-left: 500px;;
+    width: 100%;
+ 
+    border:10px solid red;
+    background-color: white;
     color: black;
     font-family: 'Roboto Mono', monospace;
     position: absolute;
-    top: 0px;;
+    top: -200px;;
+    height:100%;
 
 }
-.profilePic{
-    border-radius: 10px;
-    height: 500px;
-    opacity: 0.6;
-    rotate: 15deg;
-    
-}
+
 
 ul{
     list-style-type: none;
 }
+
+@media only screen and (max-width: 700px) {
+   
+  }
